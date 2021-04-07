@@ -1,5 +1,10 @@
 # CS202 Project: Resource Container
 
+## Warning
+This was a school project completed for CS 202 Advanced Operating Systems at University of California, Riverside in Winter of 2021.
+This is an experimental kernel module. This should ONLY be run inside of a Virtual Machine.
+
+
 ## Overview
 
 Modern operating systems promote virtualization of their underlying machines and isolation using process/thread abstractions. As a result, threads/processes also become the identities of resource scheduling for tasks in the system. However, the "matching" between abstraction and resource allocation also creates "mismatching" between tasks and their real demands of resources. For example, process scheduling is based on the CPU time, regardless their I/O usages. The system also lacks flexibilities in controlling the usage of system resources for threads/processes with different properties as they are all treated the same.
